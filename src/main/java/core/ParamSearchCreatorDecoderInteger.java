@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.Random;
 
 import org.opt4j.core.genotype.Bounds;
-import org.opt4j.core.genotype.DoubleGenotype;
 import org.opt4j.core.genotype.IntegerBounds;
 import org.opt4j.core.genotype.IntegerGenotype;
 import org.opt4j.core.problem.Creator;
@@ -13,7 +12,6 @@ import org.opt4j.core.problem.Decoder;
 import org.opt4j.core.start.Constant;
 
 import com.google.inject.Inject;
-import com.google.inject.name.Named;
 
 public class ParamSearchCreatorDecoderInteger
 		implements Creator<IntegerGenotype>, Decoder<IntegerGenotype, Collection<Integer>> {
